@@ -1,0 +1,426 @@
+.de-con {
+    margin-top: 20px;
+}
+
+.crumb-wrap {
+    height: 25px;
+}
+
+.crumb-wrap a {
+    margin-right: 5px;
+}
+
+.preview {
+    width: 400px;
+    height: 590px;
+    /* background-color: red; */
+}
+
+.preview-img {
+    position: relative;
+    height: 398px;
+    border: 1px solid #ccc;
+}
+
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    opacity: .4;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.big {
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 410px;
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    z-index: 99;
+    border: 1px solid #ccc;
+}
+
+.big img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.preview-list {
+    position: relative;
+    height: 60px;
+    /* background-color: pink; */
+    margin-top: 60px;
+}
+
+.list-item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.list-item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+    transition: all 0.2s;
+}
+
+.list-item li:hover {
+    border: 2px solid red;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+
+.arrow-l {
+    left: 0;
+    background: url(../img/arrow-prev.png);
+}
+
+.arrow-r {
+    right: 0;
+    background: url(../img/arrow-next.png);
+}
+
+.item-info {
+    width: 720px;
+    /* background-color: pink; */
+}
+
+.sku-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    height: 30px;
+}
+
+.news {
+    font-size: 12px;
+    color: #e12228;
+    height: 32px;
+}
+
+.summary-price,
+.summary-promotion {
+    position: relative;
+    padding: 5px 0;
+    background-color: #fee9eb;
+}
+
+.summary dl {
+    overflow: hidden;
+    /* margin: 10px 0; */
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 34px;
+}
+
+.summary dd {
+    color: #999;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e12228;
+}
+
+.summary-price a {
+    margin-left: 10px;
+    color: red;
+}
+
+.remark {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.summary-promotion {
+    padding-top: 0;
+}
+
+.summary-promotion dd {
+    width: 480px;
+    line-height: 34px;
+}
+
+.summary-promotion dd em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: red;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+}
+
+.summary-promotion a {
+    margin-left: 10px;
+    color: red;
+}
+
+.summary-support dd,
+.summary-stock dd {
+    line-height: 34px;
+}
+
+.summary-stock dd {
+    font-family: 'icomoon';
+}
+
+.line {
+    width: 550px;
+    border-top: 1px solid #ededed;
+}
+
+.choose-color a,
+.choose-version a,
+.choose-size a,
+.choose-type a {
+    display: inline-block;
+    padding: 0 12px;
+    height: 32px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    font-size: 12px;
+    line-height: 32px;
+    margin-right: 10px;
+}
+
+.summary a.current {
+    border: 1px solid red;
+}
+
+.choose-color,
+.choose-version,
+.choose-size,
+.choose-type {
+    margin: 10px 0;
+}
+
+.choose-amount {
+    position: relative;
+    float: left;
+    width: 49px;
+    height: 45px;
+    border: 1px solid #ccc;
+}
+
+.choose-amount input {
+    outline: none;
+    width: 33px;
+    height: 45px;
+    border: none;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.bgc {
+    float: right;
+    width: 15px;
+    height: 45px;
+    background-color: #ccc;
+}
+
+.add,
+.reduce {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 22px;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+    color: #976697;
+}
+
+.add {
+    top: 0;
+}
+
+.reduce {
+    bottom: 0;
+    cursor: not-allowed;
+}
+
+.add-car {
+    float: left;
+    width: 142px;
+    height: 47px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 47px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.choose-btn {
+    margin-top: 20px;
+}
+
+.aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+
+.tab-list {
+    overflow: hidden;
+    height: 34px;
+}
+
+
+/* 背景颜色 边框都给li */
+
+.tab-list li {
+    float: left;
+    height: 33px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    color: #333;
+}
+
+
+/* 鼠标点击li 变化样式 */
+
+.tab-list .current {
+    background-color: #fff;
+    border-bottom: none;
+    color: red;
+}
+
+.first-tab {
+    width: 104px;
+}
+
+.second-tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.detail {
+    width: 978px;
+    margin-bottom: 50px;
+}
+
+.aside .clearfix li {
+    float: left;
+    width: 70px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    border-bottom: 1px dotted #ccc;
+    margin: 0 17px;
+    font-size: 12px;
+    color: #333;
+}
+
+.also-buy {
+    width: 174px;
+    height: 40px;
+    border-bottom: 1px dotted #ccc;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tab-con {
+    padding: 0 10px;
+}
+
+.tab-con li {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con li h5 {
+    /* 超出的文字强制使用省略号，不换行 */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+
+.aside-price {
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.aside-add {
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 26px;
+    margin: 10px auto;
+    font-weight: 700;
+}
+
+.detail-tab-list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.detail-tab-list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.detail-tab-list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.item-info {
+    padding: 20px 0 0 20px;
+}
+
+.item-info li {
+    line-height: 22px;
+}
+
+.more {
+    float: right;
+    font-family: 'icomoon';
+    font-weight: 700;
+    font-size: 14px;
+}

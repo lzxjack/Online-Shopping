@@ -1,0 +1,178 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.register {
+    height: 440px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.register h3 {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ECECEC;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.login a {
+    color: red;
+}
+
+.reg-form {
+    width: 640px;
+    height: 420px;
+    margin: 40px auto 0;
+}
+
+.reg-form li {
+    margin-bottom: 15px;
+}
+
+.reg-form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg-form .inp {
+    width: 228px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.fa {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #666666;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ECECEC;
+    cursor: pointer;
+}
+
+.fa:active {
+    background-color: #fff;
+}
+
+.error {
+    color: #E12D2C;
+    margin-left: 10px;
+}
+
+.error-ico {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.success {
+    color: #39BA36;
+    margin-left: 10px;
+}
+
+.success-ico {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.safe {
+    padding-left: 183px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: red;
+}
+
+.zhong {
+    background-color: blue;
+}
+
+.qiang {
+    background-color: green;
+}
+
+.agree {
+    padding-left: 113px;
+}
+
+.agree a {
+    color: blue;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.over {
+    display: inline-block;
+    width: 200px;
+    height: 34px;
+    border: none;
+    margin: 10px 0 0 130px;
+    color: #fff;
+    background-color: #c81623;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.foot .w {
+    text-align: center;
+    margin: 14px 0 12px 0;
+}
+
+.foot-link {
+    margin-bottom: 12px;
+}
+
+.foot-link a {
+    padding: 0 8px 0 5px;
+}
+
+.foot-copyright {
+    margin: 6px 0;
+}
